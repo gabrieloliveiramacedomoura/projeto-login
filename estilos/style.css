@@ -43,10 +43,10 @@ section#login > div#imagem {
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+    display: block;
 }
 
 section#login > div#formulario {
     padding: 10px;
-    margin-left: 16px;
     display: block;
 }
