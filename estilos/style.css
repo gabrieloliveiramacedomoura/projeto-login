@@ -35,7 +35,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
     display: block;
     width: 250px;
-    height: 500px;
+    height: 515px;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -62,8 +62,13 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
-form {
-    margin-bottom: 5px;
+form > div.campo {
+    background-color: var(--cor02);
+    color: white;
+    font-weight: bold;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 5px;
 }
 
 form input[type=submit] {
@@ -107,4 +112,3 @@ form > a.botao:hover {
 form > a.botao > i {
     font-size: 0.8em;
 }
-
