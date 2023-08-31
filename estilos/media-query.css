@@ -57,4 +57,9 @@
     div#formulario > p {
         font-size: 1.2em;
     }
+
+    form > a.botao {
+        display: block;
+        width: 50%;
+    }
 }
