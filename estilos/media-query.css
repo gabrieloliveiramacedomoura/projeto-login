@@ -20,10 +20,26 @@
     section#login > div#formulario {
         float: right;
         width: 70%;
-    }
+    } 
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    form input[type=submit] { 
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin: 15px 0px 10px 300px;
+        
+    }
+
+    form > a.botao {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-left: 300px;
     }
 
 }
@@ -56,5 +72,21 @@
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    form input[type=submit] {
+        display: block;
+        text-align: center;
+        width: 39%;
+        margin: auto;
+        margin: 15px 0px 10px 50px;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        width: 39%;
+        margin: auto;
+        margin: 15px 0px 10px 50px;
     }
 }

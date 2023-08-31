@@ -62,7 +62,7 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
-form > input[type=submit] {
+form input[type=submit] {
     background-color: var(--cor01);
     color: white;
     border-radius: 5px;
@@ -76,7 +76,7 @@ form > input[type=submit] {
     cursor: pointer;
 }
 
-form > input[type=submit]:hover {
+form input[type=submit]:hover {
     background-color: #265553;
 }
 
@@ -103,3 +103,4 @@ form > a.botao:hover {
 form > a.botao > i {
     font-size: 0.8em;
 }
+
