@@ -30,6 +30,7 @@
         display: block;
         text-align: center;
         width: 50%;
+        height: 40px;
         margin: auto;
         margin: 15px 0px 10px 300px;
         
@@ -39,9 +40,9 @@
         display: block;
         width: 50%;
         margin: auto;
+        height: 40px;
         margin-left: 300px;
     }
-
 }
 
 /* PC */
@@ -78,6 +79,7 @@
         display: block;
         text-align: center;
         width: 39%;
+        height: 40px;
         margin: auto;
         margin: 15px 0px 10px 50px;
     }
@@ -86,6 +88,7 @@
         display: block;
         text-align: center;
         width: 39%;
+        height: 40px;
         margin: auto;
         margin: 15px 0px 10px 50px;
     }
