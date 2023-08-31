@@ -20,11 +20,32 @@
     section#login > div#formulario {
         float: right;
         width: 70%;
-    }
+    } 
 
     div#formulario > p {
         font-size: 1.2em;
     }
+<<<<<<< HEAD
+=======
+
+    form input[type=submit] { 
+        display: block;
+        text-align: center;
+        width: 50%;
+        height: 40px;
+        margin: auto;
+        margin: 15px 0px 10px 300px;
+        
+    }
+
+    form > a.botao {
+        display: block;
+        width: 50%;
+        margin: auto;
+        height: 40px;
+        margin-left: 300px;
+    }
+>>>>>>> 383c9253a09c1e9def0b6277b7de4dca3d14ce06
 }
 
 /* PC */
@@ -56,4 +77,23 @@
     div#formulario > p {
         font-size: 1.2em;
     }
+
+    form input[type=submit] {
+        display: block;
+        text-align: center;
+        width: 39%;
+        height: 40px;
+        margin: auto;
+        margin: 15px 0px 10px 50px;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        width: 39%;
+        height: 40px;
+        margin: auto;
+        margin: 15px 0px 10px 50px;
+    }
+
 }
