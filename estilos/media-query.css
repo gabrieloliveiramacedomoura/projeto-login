@@ -31,7 +31,7 @@
     }
 
     .campo {
-        border-radius: 5px;
+        border-radius: 10px 0px 10px;
         width: 80%;
         margin-left: 20px;
     }
@@ -85,6 +85,12 @@
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    .campo {
+        border-radius: 0px 0px 10px;
+        width: 40%;
+        margin-left: 20px;
     }
 
     form input[type=submit] {
