@@ -75,6 +75,21 @@ div#formulario > p {
     margin: 5px 5px;
 }
 
+.campo > label {
+    display: none;
+}
+
+.campo > i {
+    text-align: center;
+    padding: 4px 25px 4px 4px;
+    width: 25px;
+    height: 30px;
+}
+
+.campo > input {
+    width: 205px;
+}
+
 form input[type=submit] {
     background-color: var(--cor01);
     color: white;
